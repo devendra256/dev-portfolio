@@ -258,7 +258,24 @@ p::selection, a::selection, h1::selection, h2::selection, h3::selection {
     cursor: pointer;
 }
 
+.tech {
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: #E7E7E7;
+}
 
+.api-link > a{
+    color: #7843E9;
+    text-decoration: none;
+    font-weight: 500;
+}
+.api-link > a:hover {
+    text-decoration: underline;
+}
+
+
+/* Contact Section */
 
 .contact-section {
     background: url(./assets/svg/common-bg.svg);
@@ -314,6 +331,10 @@ p::selection, a::selection, h1::selection, h2::selection, h3::selection {
     outline: none;
 }
 
+textarea:focus, input:focus {
+    outline: 2px solid #7843E9;
+    box-shadow: 0 5px 15px rgba(120, 67, 233, 0.8);
+}
 
 .form-elemets, .form-message{
     display: flex;

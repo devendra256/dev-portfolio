@@ -15,24 +15,25 @@
     <nav class="navbar">
         <div class="myself">
             <img src="./images/my-image.jpg" alt="my image">
-            <a href="./index.html">DEVENDRA SHARMA</a>
+            <a href="#home-container">DEVENDRA SHARMA</a>
         </div>
         <div class="links">
             <ul>
-                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#home-container">HOME</a></li>
                 <li><a href="#about-container">ABOUT</a></li>
                 <li><a href="#project-container">PROJECTS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#contact-container">CONTACT</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
 
-    <section class="hero-section">
+    <section class="hero-section" id="home-container">
         <h1 class="hero-primary-text">HEY 👋 I'M DEVENDRA SHARMA.</h1>
-        <p class="hero-secondary-text">A Frontend focused Web Developer building the Frontend of Websites that leads to
-            the success of the overall product</p>
+        <p class="hero-secondary-text">
+            A Frontend focused Web Developer building the Frontend of Websites that leads to the success of the overall product
+        </p>
         <button class="projects-btn"><a href="#project-container">PROJECTS</a></button>
     </section>
 
@@ -42,19 +43,23 @@
         <div class="about-top">
             <h1>About Me</h1>
             <hr class="about-hr">
-            <p class="about-desc">Here you will find more information about me, what I do, and my current skills mostly
-                in terms of programming and technology</p>
+            <p class="about-desc">
+                Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
+            </p>
         </div>
         <div class="about-bottom">
             <div class="know-me">
                 <h1>Get to know me!</h1>
                 <div class="know-me-text">
-                    <p>I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads
-                        to the success of the overall product. Check out some of my work in the Projects section.</p>
-                    <p>I also like sharing content related to the stuff that I have learned over the years in Web
-                        Development so it can help other people of the Dev Community.</p>
-                    <p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good
-                        opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+                    <p>
+                        I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.
+                    </p>
+                    <p>
+                        I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community.
+                    </p>
+                    <p>
+                        I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+                    </p>
                 </div>
                 <div class="resume">
                     <button class="resume-btn"><a href="https://devendra256.github.io/my-resume/"
@@ -86,21 +91,20 @@
         <div class="project-top">
             <h1>Projects</h1>
             <hr class="project-hr">
-            <p class="project-desc">Here you will find some of the personal and clients projects that I created with
-                each project containing its own case study
+            <p class="project-desc">Here you will find some of the personal and clients projects that I created with each project containing its own case study
             </p>
         </div>
         <div class="projects">
             <div class="project-rows">
                 <div class="project-img">
-                    <img src="./assets/jpeg/project-mockup-example.jpeg" alt="project image">
+                    <img src="./assets/jpeg/project-mockup-example.jpg " alt="project image">
                 </div>
                 <div class="project-details">
-                    <h1 class="project-title">YelpCamp</h1>
+                    <h1 class="project-title">YelpCamp (development)</h1>
                     <div class="about-project">
-                        <ul>
-                            YelpCamp is a site which make finding campground easy. Reviews of the visitors helps you choosing campground
-                        </ul>
+                        <p>
+                            YelpCamp is a site which make finding campground easy. Reviews of the visitors helps you choosing campground.
+                        </p>
                         <div class="tech-stack">
                             <div class="row-one">
                                 <div class="tech">HTML</div>
@@ -118,36 +122,52 @@
             </div>
             <div class="project-rows">
                 <div class="project-img">
-                    <img src="./assets/jpeg/project-mockup-example.jpeg" alt="project image">
+                    <img src="./images/weather-project.jpg" alt="project image">
                 </div>
                 <div class="project-details">
                     <h1 class="project-title">City Weather Search</h1>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum odit dolorem a quas tempore hic
-                        nisi eius perspiciatis. Repellat nemo laboriosam incidunt natus non facere, odit, corporis
-                        soluta cum atque ab fuga. Distinctio deserunt minus earum, praesentium, perspiciatis
-                        voluptatibus officiis necessitatibus iure tempore, quis deleniti. Quasi totam quos officiis
-                        error?
-                    </p>
+                    <div class="about-project">
+                        <p>
+                            It is a weather search app which shows the weather of the city you search for. The images changes according to the weather of the searched city.
+                            <br>
+                            It has been created using the <span class="api-link"><a href="https://openweathermap.org">openweathermap.org</a></span> API.
+
+                        </p>
+                        <div class="tech-stack">
+                            <div class="row-one">
+                                <div class="tech">HTML</div>
+                                <div class="tech">CSS</div>
+                                <div class="tech">JavaScript</div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="project-btns">
                         <button><a href="#">Demo</a></button>
                         <button><a href="#">GitHub</a></button>
                     </div>
                 </div>
             </div>
+
             <div class="project-rows">
                 <div class="project-img">
-                    <img src="./assets/jpeg/project-mockup-example.jpeg" alt="project image">
+                    <img src="./images/dictionary-project.jpg" alt="project image">
                 </div>
                 <div class="project-details">
                     <h1 class="project-title">My Personal Dictionary</h1>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum odit dolorem a quas tempore hic
-                        nisi eius perspiciatis. Repellat nemo laboriosam incidunt natus non facere, odit, corporis
-                        soluta cum atque ab fuga. Distinctio deserunt minus earum, praesentium, perspiciatis
-                        voluptatibus officiis necessitatibus iure tempore, quis deleniti. Quasi totam quos officiis
-                        error?
-                    </p>
+                    <div class="about-project">
+                        <p>
+                            It is a dictionary web app which allows users to search for the meaning of the word they want to search for. It also has the pronounciation feature of the word.
+                            <br>
+                            It has been created using the <span class="api-link"><a href="https://dictionaryapi.dev/">dictionaryapi.dev</a></span> API.
+                        </p>
+                        <div class="tech-stack">
+                            <div class="row-one">
+                                <div class="tech">HTML</div>
+                                <div class="tech">CSS</div>
+                                <div class="tech">JavaScript</div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="project-btns">
                         <button><a href="#">Demo</a></button>
                         <button><a href="#">GitHub</a></button>
@@ -159,15 +179,16 @@
 
     <!-- Contact -->
 
-    <section class="contact-section">
+    <section class="contact-section" id="contact-container">
         <div class="contact-top">
             <h1>CONTACT</h1>
             <hr class="contact-hr">
-            <p class="contact-desc">Feel free to Contact me by submitting the form below and I will get back to you as
-                soon as possible</p>
+            <p class="contact-desc">
+                Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
+            </p>
         </div>
         <div class="form-section">
-            <form class="contact-form" action="#">
+            <form class="contact-form" action="https://getform.io/f/247a337b-2975-44de-98b4-a916c16c1abc" method="post">
                 <div class="form-elemets">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" placeholder="Enter Your Name">
@@ -192,8 +213,7 @@
         <div class="footer-content">
             <div class="footer-left">
                 <h1>DEVENDRA SHARMA</h1>
-                <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to
-                    the success of the overall product</p>
+                <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
             </div>
             <div class="footer-right">
                 <h1>SOCIAL</h1>
